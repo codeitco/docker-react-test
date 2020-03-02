@@ -1,0 +1,1 @@
+docker run -p 3000:3000 -v /app/node_modules -v d:/Projects/docker/reactdemo/frontend/:/app/ cdec8d6c4972
