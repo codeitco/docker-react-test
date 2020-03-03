@@ -13,10 +13,10 @@ deploy:
   edge: true
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "docker-test"
+  app: "docker-test2"
   env: "DockerTest-env"
   bucket_name: "elasticbeanstalk-us-east-2-510799748847"
-  bucket_path: "docker-test"
+  bucket_path: "docker-test2"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
